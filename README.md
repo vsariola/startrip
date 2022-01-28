@@ -5,9 +5,11 @@ A 128 byte DOS intro written by pestis / bC!, submitted to the Lovebyte
 
 Source code: https://github.com/vsariola/startrip
 
+Capture: https://youtu.be/Fd1mMbR2ulE
+
 Probably DOSBox only.
 
-This sizecategory is just coder porn, normal people should not bother.
+This size category is just coder porn, normal people should not bother.
 
 Greets to superogue, HellMood, TomCat, baze, Ped7g, byteobserver, ttg,
 DevEd/AYCE, Dresdenboy, Kuemmel, Harekiet, unlord, DrClaw.
@@ -40,7 +42,8 @@ or just run the `build.bat`.
   important property of 17 is that 15 * 17 = 255 = -1, so the net effect
   of 15 cycles is to decrease the time by one, while in between, the
   time is a large value outside the array. Since the array is last in
-  the program, at least DOSBox guarantees it's all zeros.
+  the program, at least DOSBox guarantees values outside it are all
+  zeros.
 - During initialization, we dump the whole code & data to MIDI port,
   with rep outsb. It setups the instruments and starts playing that low
   frequency bass.
